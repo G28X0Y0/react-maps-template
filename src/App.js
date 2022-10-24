@@ -90,7 +90,7 @@ function App() {
                     options={{
                         zoomControl: false,
                         streetViewControl: false,
-                        mapTypeControl: false,
+                        mapTypeControl: true,
                         fullscreenControl: false,
                     }}
                     onLoad={map => setMap(map)}
